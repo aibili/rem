@@ -1,0 +1,222 @@
+
+html{
+	font-size: 100px;
+}
+
+.container{
+	width: 7.5rem;
+	margin: 0 auto;
+	position: relative;
+	border-left: 1px solid grey;
+	border-right: 1px solid grey;
+	box-shadow: 0px 0px 6px 0px grey;
+}
+
+.toppart{
+	height: 0.85rem;
+	background: #C72532;
+	font-size: 0.12rem;
+	/* line-height: 85px; */
+}
+
+.toppart-left{
+    float: left;
+    /* font-size: 12px; */
+    /* padding-left: 25px; */
+    /* padding-top: 24px; */
+    margin-left: 0.2rem;
+    margin-top: 0.22rem;
+}
+.toppart-left span{
+    font-size: 0.33rem;
+    color: #fff;
+}
+
+.toppart-mid{
+    float: left;
+    position: relative;
+    /* padding-left: 20px; */
+    margin-left: 0.88rem;
+    margin-top: 0.22rem;
+}
+.toppart-mid input{
+    border: none;
+    width: 4.4rem;
+    height: 0.4rem;
+    text-indent: 2em;
+}
+.toppart-mid span{
+    position: absolute;
+    top: 0.09rem;
+    left: 0.03rem;
+    font-size: 0.2rem;
+}
+
+.toppart-bot{
+    float: right;
+    color: #fff;
+    margin-right: 0.32rem;
+    margin-top: 0.16rem;
+}
+.toppart-bot span{
+    font-size: 0.3rem;
+    color: #fff;
+}
+.toppart-bot p{
+    font-size: 0.16rem;
+}
+
+
+.carpart{
+	height: 2.64rem;
+	background: skyblue;
+	overflow: hidden;
+}
+
+.carpart ul{
+    width: 200%;
+    height: 100%;
+}
+.carpart li{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+.carpart a{}
+.carpart img{
+    width: 100%;
+    height: 100%;
+}
+
+.selpart{
+	/* height: 3.6rem; */
+	background: #fff;
+	font-size: 0.12rem;
+}
+.selpart ul{}
+.selpart ul li{
+    float: left;
+    width: 25%;
+    text-align: center;
+    margin-top: 0.15rem;
+}
+.selpart-item{}
+.selpart-item-top{
+    display: inline-block;
+    background: #FA9638;
+    color: #fff;
+    padding: 0.1rem;
+    border-radius: 17px;
+}
+.selpart-item-top span{
+    font-size: 0.3rem;
+}
+.selpart-item-bot{}
+.selpart-item-bot p{
+    font-size: 0.15rem;
+}
+
+body{
+	height: 3000px;
+}
+
+.showpart{
+	font-size: 0.12rem;
+	background: #EBEBEB;
+	margin-top: 0.22rem;
+}
+.showpart-item{
+    padding-top: 0.1rem;
+}
+.showpart-item-tt{}
+.showpart-item-tt h4{
+    float: left;
+    font-size: 0.2rem;
+    border-left: 5px solid tomato;
+    padding-left: 0.1rem;
+}
+.showpart-item-tt h4 span{
+    color: tomato;
+    padding-right: 0.1rem;
+}
+.showpart-item-tt i{
+    float: left;
+    width: 4.5rem;
+    height: 1px;
+    background: grey;
+    margin-left: 0.2rem;
+    margin-top: 0.13rem;
+}
+.showpart-item-tt>span{
+    float: right;
+    font-size: 0.24rem;
+    padding-right: 0.15rem;
+}
+
+.showpart-item-bd{
+    height: 3.76rem;
+    margin-top: 0.15rem;
+}
+.showpart-item-bd a{}
+.showpart-item-bd img{
+    width: 100%;
+    height: 100%;
+}
+.showpart-item-bd-left{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+.showpart-item-bd-right{
+    float: right;
+    width: 50%;
+}
+.showpart-item-bd-right .showpart-item-bd-right-top{}
+.showpart-item-bd-right .showpart-item-bd-right-bot{}
+
+.footpart{
+	background: #1E1E1E;
+	font-size: 0.12rem;
+	padding: 0.1rem 0px;
+}
+.footpart-item{
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+.footpart-item a{
+	color: #fff;
+}
+.footpart-item span{
+    font-size: 0.26rem;
+}
+.footpart-item p{}
+
+@media screen and (min-width: 320px) {
+    html {font-size: 42.66px;}
+}
+ 
+@media screen and (min-width: 360px) {
+    html {font-size: 48px;}
+}
+ 
+@media screen and (min-width: 400px) {
+    html {font-size: 53.33px;}
+}
+ 
+@media screen and (min-width: 440px) {
+    html {font-size: 58.66px;}
+}
+ 
+@media screen and (min-width: 480px) {
+    html {font-size: 64px;}
+}
+ 
+@media screen and (min-width: 640px) {
+    html {font-size: 85.33px;}
+}
+
+@media screen and (min-width: 767px) {
+    html {font-size: 100px;}
+}
+
