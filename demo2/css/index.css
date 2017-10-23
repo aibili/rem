@@ -1,0 +1,80 @@
+
+/*html{
+	font-size: 75px;
+}*/
+
+/*body{
+	font-size: 12px;
+	height: 3000px;
+}*/
+*{
+	box-sizing: border-box;
+}
+.container{
+	width: 10rem;
+	margin: 0 auto;
+	position: relative;
+}
+
+.toppart{}
+.toppart-show{}
+.toppart-show img{
+	width: 10rem;
+	height: 6.56rem;
+}
+
+.botpart{
+    background: #F5294C;
+    padding-bottom: 0.13rem;
+}
+.public-item{
+    width: 9.73rem;
+    /* margin-left: 0.13rem; */
+    margin: 0 auto;
+    padding-top: 0.26rem;
+    padding-bottom: 0.18rem;
+    background: #fff;
+    position: relative;
+}
+.item-pic{
+    float: left;
+}
+.item-pic img{
+    width: 2.34rem;
+    height: 2.34rem;
+}
+.item-mess{
+    float: left;
+    margin-left: 0.21rem;
+}
+.item-mess h4{
+    font-size: 0.22rem;
+    font-weight: 400;
+    color: #000;
+}
+.item-mess p{
+    font-size: 0.22rem;
+    color: #f32a4c;
+    margin-top: 0.1rem;
+    margin-bottom: 0.13rem;
+}
+.item-mess p span{
+    background: #f32a4c;
+    color: #fff;
+    font-size: 0.21rem;
+    padding: 0px 0.06rem;
+    margin-right: 0.08rem;
+}
+.item-mess>span{
+    font-size: 0.24rem;
+    color: #ff6a30;
+}
+.item-mess a{
+    position: absolute;
+    bottom: 0.2rem;
+    right: 0.25rem;
+    font-size: 0.26rem;
+    background: #f5294c;
+    color: #fff;
+    padding: 0.06rem 0.32rem;
+}
