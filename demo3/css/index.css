@@ -23,6 +23,7 @@ body{
 .toppart-top{}
 .toppart-top img{
 	height: 0.703125rem;
+    width: 10.0rem;
 }
 
 .toppart-bot{
@@ -184,9 +185,7 @@ body{
 	right: 0.28125rem;
 }
 
-body{
-	background: pink;
-}
+
 
 .showpart-allitem{
     position: relative;
